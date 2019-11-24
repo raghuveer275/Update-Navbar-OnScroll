@@ -1,0 +1,38 @@
+.header-tabs {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  min-width: 100vw;
+  justify-content: stretch;
+}
+.tab {
+  min-width: calc(100vw/8);
+  position: relative;
+  height: 50px;
+  background: black;
+  color: lightgray;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.tab.active {
+  color: black;
+  background: lightgray;
+}
+
+.divisions {
+  position: relative;
+  top: 50px;
+  padding: 50px 200px;
+  text-align: justify;
+}
+.space {
+  margin-bottom: 60px;
+  color: transparent;
+}
